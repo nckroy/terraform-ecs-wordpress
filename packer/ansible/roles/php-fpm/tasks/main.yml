@@ -1,7 +1,7 @@
 ---
 - name: PHP-FPM | Installation
   apk:
-     name=php-fpm,php-mysql,php-opcache
+     name=php7-fpm,php7-mysqli,php7-opcache
      state=present
      update_cache=yes
 
